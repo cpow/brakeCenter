@@ -24,5 +24,7 @@ class ContactController < ApplicationController
   def index
   end
     
+  def appoint
+  end
     
 end

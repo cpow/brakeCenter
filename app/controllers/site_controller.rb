@@ -17,6 +17,9 @@ class SiteController < ApplicationController
   def contact
   end
   
+  def apt
+  end
+  
   def careers
   end
   

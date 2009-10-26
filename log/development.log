@@ -10678,3 +10678,173 @@ Processing SiteController#index (for 127.0.0.1 at 2009-10-26 10:53:19) [GET]
 Rendering template within layouts/application
 Rendering site/index
 Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 11:07:12) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 11:07:24) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-26 11:07:26) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 11:07:26) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 64ms (View: 62, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#testimonials (for 127.0.0.1 at 2009-10-26 11:07:27) [GET]
+Rendering template within layouts/application
+Rendering site/testimonials
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://0.0.0.0/site/testimonials]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 11:07:28) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 66ms (View: 65, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 11:11:57) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 11:12:00) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 70ms (View: 69, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-26 11:12:36) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 11:12:37) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-26 11:12:38) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 11:12:38) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 11:12:39) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 60ms (View: 58, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 11:12:44) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 11:13:38) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#sendAppointment (for 127.0.0.1 at 2009-10-26 11:14:37) [POST]
+  Parameters: {"commit"=>"Send", "appointment"=>{"body"=>"I would like to have an inspection too please. This is a great little app that allows me to make an appointment with you. I am really enjoying this.", "time"=>"12:30", "service"=>"brakes", "last"=>"Power", "first"=>"Chris", "day"=>"today", "carinfo"=>"2008 Jeep iberty", "addy"=>"cpow85@gmail.com", "phone"=>"508-481-5172", "location"=>"stamford"}, "authenticity_token"=>"bzx9NdVNz0pOmIWK7ROwZwipsIeADMmCYme19vA7Pgw="}
+Sent mail to cpow85@gmail.com
+
+From: email@cpowsolutions.com
+To: cpow85@gmail.com
+Subject: New appointment request from BrakeCenters
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+You got an appointment request from: Chris Power.
+
+Contact info:
+Phone Number: 508-481-5172
+Email:        cpow85@gmail.com
+
+Appointment Information:
+Day Requested:  today
+Time of Day:    12:30
+Type of Car:    2008 Jeep iberty
+Service Needed: brakes
+Location:       stamford
+
+Additional Comments:
+"I would like to have an inspection too please. This is a great little app that allows me to make an appointment with you. I am really enjoying this."
+
+Net::SMTPAuthenticationError (530 5.7.0 Must issue a STARTTLS command first. 6sm2919qwd.18
+):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:576:in `auth_plain'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:570:in `__send__'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:570:in `authenticate'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:410:in `do_start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:377:in `start'
+  app/controllers/contact_controller.rb:21:in `sendAppointment'
+
+Rendered rescues/_trace (86.8ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactController#sendAppointment (for 127.0.0.1 at 2009-10-26 11:18:10) [POST]
+  Parameters: {"commit"=>"Send", "appointment"=>{"body"=>"I would like to have an inspection too please. This is a great little app that allows me to make an appointment with you. I am really enjoying this.", "time"=>"12:30", "service"=>"brakes", "last"=>"Power", "first"=>"Chris", "day"=>"today", "carinfo"=>"2008 Jeep iberty", "addy"=>"cpow85@gmail.com", "phone"=>"508-481-5172", "location"=>"stamford"}, "authenticity_token"=>"bzx9NdVNz0pOmIWK7ROwZwipsIeADMmCYme19vA7Pgw="}
+Sent mail to cpow85@gmail.com
+
+From: email@cpowsolutions.com
+To: cpow85@gmail.com
+Subject: New appointment request from BrakeCenters
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+You got an appointment request from: Chris Power.
+
+Contact info:
+Phone Number: 508-481-5172
+Email:        cpow85@gmail.com
+
+Appointment Information:
+Day Requested:  today
+Time of Day:    12:30
+Type of Car:    2008 Jeep iberty
+Service Needed: brakes
+Location:       stamford
+
+Additional Comments:
+"I would like to have an inspection too please. This is a great little app that allows me to make an appointment with you. I am really enjoying this."
+
+Net::SMTPAuthenticationError (530 5.7.0 Must issue a STARTTLS command first. 7sm16503728qwf.16
+):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:576:in `auth_plain'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:570:in `__send__'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:570:in `authenticate'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:410:in `do_start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:377:in `start'
+  app/controllers/contact_controller.rb:21:in `sendAppointment'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
