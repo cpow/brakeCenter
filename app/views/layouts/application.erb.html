@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <%= stylesheet_link_tag 'site' %>
+</head>
+<html>
+
+<div id="whole_page">
+	<div id="header">
+		<%= link_to_unless_current image_tag("logo.gif", :size => "175x80", :border => 0), :controller => 'site', :action => 'index' %> 
+		<%= link_to_unless_current "Brake Centers of America", :controller => 'site', :action => 'index' %>
+	</div>
+	<div id="nav">
+		<%= link_to_unless_current image_tag("brakelights.png", :size => "913x150", :border => 0), :action =>'index'  %>
+		<div id="navLinks">
+		<%= link_to_unless_current "About Us",        :controller => 'site', :action => 'about'%> |
+		<%= link_to_unless_current "Store Locations", :controller => 'site', :action => 'locations'%> |
+		<%= link_to_unless_current "Promotions",      :controller => 'site', :action => 'promotions'%> |
+		<%= link_to_unless_current "Testimonials",      :controller => 'site', :action => 'testimonials'%> |
+		<%= link_to_unless_current "Contact Us",      :controller => 'contact', :action => 'index'%> |
+		<%= link_to_unless_current "Careers",      :controller => 'site', :action => 'careers'%>
+		</div>
+		<b class="nbottom">
+		  <b class="r4"></b> <b class="r3"></b> <b class="r2"></b> <b class="r1"></b>
+		</b>
+	</div>
+	
+		
+	
+	<br />
+	<div id="content">
+		
+			<div id="right">
+			<b class="rtop">
+			  <b class="r1"></b> <b class="r2"></b> <b class="r3"></b> <b class="r4"></b>
+			</b>
+			<div id="rightContent">
+			<h2><%= link_to_unless_current "Testimonials", :action => 'testimonials'%></h2><br />
+		"Carlos and his associate took excellent care of me even though it was close to closing. They sent out for the needed brake parts and did a quick job for me. I am impressed and you have a new customer for life. I will be back soon to replace my rear tires and will schedule my future oil changes at your store." <br /><br />
+		--Al Heinlein <br /><br />
+		
+		"Not only do I feel confident in the service for myself, but I would recommend this office to anyone else, especially my family. I trust the Stratford BCOA to give them the same quality work I originally received!"<br /><br />
+		--Tom Heinrich <br /><br />
+
+			<strong><%= link_to_unless_current "...Read more", :action => 'testimonials'%></strong>
+			
+			</div>	
+			<b class="rbottom">
+			  <b class="r4"></b> <b class="r3"></b> <b class="r2"></b> <b class="r1"></b>
+			</b>	
+		</div>
+			<%= yield %>
+	</div>
+	
+
+	
+	<div id="beforeBot">
+		<ul>
+		<li><%= image_tag "bbb_logo.jpg", :size => "125x50"  %></li> 
+		<li><%= image_tag "fairfield.jpg", :size => "75x50"  %> </li> 
+		<li><%= link_to image_tag("tirepro.gif", :size => "150x50", :border => 0), "http://www.thetirepro.com"%></li>
+		<li><%= link_to image_tag("amclogo.jpg", :size => "80x50", :border => 0), "http://www.automaintenanceclub.com/"%></li>
+		</ul>
+	</div>
+	
+	<div id="bottom">
+		<b class="ntop">
+		  <b class="r1"></b> <b class="r2"></b> <b class="r3"></b> <b class="r4"></b>
+		</b>
+		<div id="navLinks">
+		<%= link_to_unless_current "Home", :controller => 'site', :action => 'index'%>
+		</div>
+		<b class="nbottom">
+		  <b class="r4"></b> <b class="r3"></b> <b class="r2"></b> <b class="r1"></b>
+		</b>
+	</div>
+	
+</div>
+
+</html>

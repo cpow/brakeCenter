@@ -1,0 +1,143 @@
+body {
+	font-family: arial;
+	background: white;
+	margin: auto;
+	text-align: center;
+}
+#whole_page {
+	width: 900px;
+	text-align: left;
+	color: black;
+	margin: auto;
+}
+#header {
+	font-size: 30pt;
+	font-weight: 50%;
+	padding-top: 5px;
+	color : #11151E;
+}
+#header a, #header a:visited {
+	color: #11151E;
+	text-decoration: none;
+}
+#nav {
+	float: left;
+	width: 910px;
+	font-size: 10pt;
+	background: #690C07;
+	color: #4d4e50;
+}
+#nav a, #nav a:visited {
+	color: #EEE;
+	text-decoration: none;
+} 
+#nav a:hover {
+	color: #4d4e50;
+}
+#right {
+	width: 250px;
+	font-size: 9pt;
+	background: #B9AA81;
+	color: #11151E;
+	float: right;
+}
+#right a, #right a:visited {
+	color: #11151e;
+	text-decoration: none;
+} 
+#right a:hover {
+	color: #727564;
+}
+#rightContent {
+	padding: 0px 5px 5px 5px;
+}
+#navLinks {
+	padding: 5px 5px 5px 5px;
+}
+#right h1 {
+	color: #11151E;
+	font-size: 14pt;
+	margin: 0;
+	padding: 0;
+}
+.rtop, .rbottom{display:block; background: #FFF;}
+.ntop, .nbottom{display:block; background: #FFF;}
+.rtop *, .rbottom *{display: block; height: 1px; overflow: hidden; background: #B9AA81;}
+.ntop *, .nbottom *{display: block; height: 1px; overflow: hidden; background: #690C07;}
+.r1{margin: 0 5px}
+.r2{margin: 0 3px}
+.r3{margin: 0 2px}
+.r4{margin: 0 1px; height: 2px}
+#content {
+	clear: left;
+	width: 900px;
+	font-size: 10pt;
+	padding: 10px;
+	color: #11151E;
+	float: left;
+}
+#content a, #content a:visited {
+	color: #11151e;
+	text-decoration: none;
+} 
+#content a:hover {
+	color: #727564;
+}
+#content h1 {
+	color: #727564;
+	font-size: 16pt;
+	margin: 0;
+	padding: 0;
+}
+#content h2 {
+	color: #11151E;
+	font-size: 12pt;
+	margin: 0;
+	padding: 0;
+}
+#tabbedContent {
+	margin-left: 30px;
+}
+#beforeBot {
+	text-align: center;
+	width: 100%;
+	clear: both;
+	padding: 0;
+}
+#beforeBot ul {
+	list-style-type: none;
+	margin:0 15px;
+	padding:0
+}
+#beforeBot li {
+	float: left; 
+	width:120px;
+	margin: 10px 30px 10px 20px;
+}
+#bottom {
+	float: left;
+	font-size: 10pt;
+	bottom: 0;
+	width: 910px;
+	background: #690C07;
+	color: #EEE;
+}
+#bottom a, #bottom a:visited {
+	color: #EEE;
+	text-decoration: none;
+}
+#bottom a:hover {
+	color: #4d4e50;
+}
+
+fieldset {
+	width: 50%;
+	background: #B9AA81;
+	color: #11151e;
+}
+
+legend {
+	background: #690C07;
+	color: white;
+	padding: .25em;
+}
