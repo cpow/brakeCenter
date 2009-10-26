@@ -1,0 +1,46 @@
+<fieldset id="make_an_appointment" class="">
+	<legend>Make an Appointment</legend>
+
+<% form_for :appointment, :url => {:action => "sendAppointment"} do |f|%>
+
+<strong>Contact Info</strong><br />
+
+<%= f.text_field :first %>
+<%= f.label "First Name" %><br />
+
+<%= f.text_field :last %>
+<%= f.label "Last Name" %><br />
+
+<%= f.text_field :addy %>
+<%= f.label "Email" %><br />
+
+<%= f.text_field :phone %>
+<%= f.label "Daytime Phone (123-123-1234)" %><br /><br />
+
+<strong>Car Information</strong><br />
+
+<%= f.text_field :carinfo %>
+<%= f.label "Vehicle Make, Model" %><br /><br />
+
+<strong>Service Info</strong><br />
+
+<%= f.text_field :service %>
+<%= f.label "Service Needed" %><br />
+
+<%= f.text_field :location %>
+<%= f.label "BCA Location" %><br />
+
+<%= f.text_field :day %>
+<%= f.label "Day of Service" %><br />
+
+<%= f.text_field :time %>
+<%= f.label "Time of Day Requested" %><br /><br />
+
+<strong>Additional Comments</strong><br />
+
+<%= f.text_area :body %><br />
+
+<%= f.submit "Send" %>
+<% end %>
+
+</fieldset>
