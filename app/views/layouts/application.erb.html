@@ -13,7 +13,7 @@
 		<%= link_to_unless_current "Brake Centers of America", :controller => 'site', :action => 'index' %>
 	</div>
 	<div id="nav">
-		<%= link_to_unless_current image_tag("brakelights.png", :size => "913x150", :border => 0), :action =>'index'  %>
+		<%= link_to_unless_current image_tag("brakelights.png", :size => "913x150", :border => 0), :controller => 'site', :action =>'index'  %>
 		<div id="navLinks">
 		<%= link_to_unless_current "About Us",        :controller => 'site', :action => 'about'%> |
 		<%= link_to_unless_current "Store Locations", :controller => 'site', :action => 'locations'%> |
@@ -38,14 +38,14 @@
 			  <b class="r1"></b> <b class="r2"></b> <b class="r3"></b> <b class="r4"></b>
 			</b>
 			<div id="rightContent">
-			<h2><%= link_to_unless_current "Testimonials", :action => 'testimonials'%></h2><br />
+			<h2><%= link_to_unless_current "Testimonials", :controller => 'site', :action => 'testimonials'%></h2><br />
 		"Carlos and his associate took excellent care of me even though it was close to closing. They sent out for the needed brake parts and did a quick job for me. I am impressed and you have a new customer for life. I will be back soon to replace my rear tires and will schedule my future oil changes at your store." <br /><br />
 		--Al Heinlein <br /><br />
 		
 		"Not only do I feel confident in the service for myself, but I would recommend this office to anyone else, especially my family. I trust the Stratford BCOA to give them the same quality work I originally received!"<br /><br />
 		--Tom Heinrich <br /><br />
 
-			<strong><%= link_to_unless_current "...Read more", :action => 'testimonials'%></strong>
+			<strong><%= link_to_unless_current "...Read more", :controller => 'site', :action => 'testimonials'%></strong>
 			
 			</div>	
 			<b class="rbottom">

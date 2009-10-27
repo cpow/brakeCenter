@@ -4,6 +4,12 @@ body {
 	margin: auto;
 	text-align: center;
 }
+#sale {
+	background: #B9AA81;
+}
+#sale h1 {
+	color: #690C07;
+}
 
 #whole_page {
 	width: 900px;

@@ -11822,3 +11822,912 @@ Processing SiteController#about (for 127.0.0.1 at 2009-10-26 15:47:52) [GET]
 Rendering template within layouts/application
 Rendering site/about
 Completed in 15ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:49:03) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/site]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 19:49:54) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing SiteController#testimonials (for 127.0.0.1 at 2009-10-26 19:49:55) [GET]
+Rendering template within layouts/application
+Rendering site/testimonials
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/testimonials]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 19:49:58) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 19:49:59) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 19:50:00) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing SiteController#testimonials (for 127.0.0.1 at 2009-10-26 19:50:01) [GET]
+Rendering template within layouts/application
+Rendering site/testimonials
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/site/testimonials]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 19:50:01) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 19:50:28) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:50:29) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 19:50:30) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:50:31) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 19:50:31) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 19:50:32) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 19:50:33) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 19:53:33) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:53:34) [GET]
+Rendering template within layouts/application
+Rendering site/index
+ERROR: compiling _run_erb_app47views47site47index46html46erb RAISED compile error
+/Users/cpow/Desktop/brakeCenter/app/views/site/index.html.erb:9: syntax error, unexpected ':', expecting ')'
+... sales going on right now.." :controller => 'site', :action ...
+                              ^
+/Users/cpow/Desktop/brakeCenter/app/views/site/index.html.erb:9: syntax error, unexpected ',', expecting ')'
+... now.." :controller => 'site', :action => 'promotions').to_s...
+                              ^
+Function body:           def _run_erb_app47views47site47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Celebrating 20 Years!</h1>\n<p>We are proud to say that we have been in business for 20 years.\nI am glad to see all of the same faces all of the time. Allow us to make you a lifetime\ncustomer and also, be sure to check out our 20th year anniversary sale!</p>\n\n<h1 id=\"fall_4x4_sale_going_on_right_now!\">Fall 4X4 Sale Going on Right Now!</h1>\n<strong>$150 Instant Refund</strong><br />\non 4 wheel brakes and 4 tires<br /><br />\n<strong>"
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "More sales going on right now.." :controller => 'site', :action => 'promotions').to_s); @output_buffer.concat "</strong>\n\n\t\n\n<h1 id=\"brake_centers_of_america\">Brake Centers of America</h1>\n<p>We are not simply brake experts, we eat, sleep and think brakes all day every day. Having problems getting a brake problem resolved elsewhere? Let us come to your rescue. We can diagnose and repair any brake system and brake components including, brake squeal and brake noises, brake pull, brake dust problems, ABS brake lights on, emergency brakes that don\342\200\231t hold, brake vibrations and brake pulsations, drum brake systems malfunctions, imbalanced brake systems, red, yellow brake light on, we fix it all.</p>\n\n<div id=\"tabbedContent\">\n<li><h2>Expert Brake Repairs</h2>\n\t<p>Done right the first time. You can trust us to do what is right for you.\n\n<li><h2>Low Brake Price Guarantee</h2>\n\t<p>We guarantee our Brake prices are at least 25% less than any competitors price prior to repair.  \n\n<li><h2>Convenience</h2>\n \t<p>No appointment is ever needed, all brake services  performed quickly while you wait.\n\n<li><h2>Our Wonderful Employees</h2>\n<p>With Today's Cars, Experience is important, but so is courtesy. Employees that started with us 20 years ago are still with us today.</p>\n</div>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/cpow/Desktop/brakeCenter/app/views/site/index.html.erb:31:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/cpow/Desktop/brakeCenter/app/views/site/index.html.erb:9: syntax error, unexpected ':', expecting ')'
+... sales going on right now.." :controller => 'site', :action ...
+                              ^
+/Users/cpow/Desktop/brakeCenter/app/views/site/index.html.erb:9: syntax error, unexpected ',', expecting ')'
+... now.." :controller => 'site', :action => 'promotions').to_s...
+                              ^) on line #9 of app/views/site/index.html.erb:
+6: <h1 id="fall_4x4_sale_going_on_right_now!">Fall 4X4 Sale Going on Right Now!</h1>
+7: <strong>$150 Instant Refund</strong><br />
+8: on 4 wheel brakes and 4 tires<br /><br />
+9: <strong><%= link_to "More sales going on right now.." :controller => 'site', :action => 'promotions'%></strong>
+10: 
+11: 	
+12: 
+
+    app/views/site/index.html.erb:31:in `compile!'
+
+Rendered rescues/_trace (32.4ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:53:41) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:54:36) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:55:07) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:55:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:56:58) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:56:59) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:57:54) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 49ms (View: 48, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:58:09) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:58:45) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:59:06) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:59:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:59:29) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 19:59:49) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 19:59:50) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:00:05) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:24:45) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 20:24:54) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 20:29:35) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 20:29:52) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 20:30:01) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 20:30:54) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+ERROR: compiling _run_erb_app47views47contact47index46html46erb RAISED compile error
+/Users/cpow/Desktop/brakeCenter/app/views/contact/index.html.erb:4: syntax error, unexpected ':', expecting ')'
+...cat(( link_to "Testimonials" :controller => 'site', :action ...
+                              ^
+/Users/cpow/Desktop/brakeCenter/app/views/contact/index.html.erb:4: syntax error, unexpected ',', expecting ')'
+...onials" :controller => 'site', :action => 'testimonials').to...
+                              ^
+Function body:           def _run_erb_app47views47contact47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>We want to know</h1>\n<strong>Tell Us. How Did We Do?</strong><br /><br />\nWas the level of service as promised?<br />\nPost your comments here about your experience with Brake Centers/Tire Pro. We routinely add these comments to our "
+
+
+; @output_buffer.concat(( link_to "Testimonials" :controller => 'site', :action => 'testimonials').to_s); @output_buffer.concat " section.<br /><br /><br />\n\n<fieldset id=\"\" class=\"\">\n\t<legend>Send Feedback</legend>\t\n\n"
+
+
+
+
+;  form_for :mail, :url => {:action => "sendMail"} do |f|; @output_buffer.concat "\n\n"
+
+; @output_buffer.concat(( f.text_field :first ).to_s); @output_buffer.concat "\n"
+; @output_buffer.concat(( f.label "First Name" ).to_s); @output_buffer.concat "<br />\n\n"
+
+; @output_buffer.concat(( f.text_field :last ).to_s); @output_buffer.concat "\n"
+; @output_buffer.concat(( f.label "Last Name" ).to_s); @output_buffer.concat "<br />\n\n"
+
+; @output_buffer.concat(( f.text_field :addy ).to_s); @output_buffer.concat "\n"
+; @output_buffer.concat(( f.label "Email" ).to_s); @output_buffer.concat "<br /><br />\n\n"
+
+; @output_buffer.concat(( f.label "Message" ).to_s); @output_buffer.concat "<br />\n"
+; @output_buffer.concat(( f.text_area :body ).to_s); @output_buffer.concat "<br />\n\n"
+
+; @output_buffer.concat(( f.submit "Send" ).to_s); @output_buffer.concat "\n"
+;  end ; @output_buffer.concat "\n\n</fieldset>\n\n\n"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/cpow/Desktop/brakeCenter/app/views/contact/index.html.erb:32:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/cpow/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/cpow/Desktop/brakeCenter/app/views/contact/index.html.erb:4: syntax error, unexpected ':', expecting ')'
+...cat(( link_to "Testimonials" :controller => 'site', :action ...
+                              ^
+/Users/cpow/Desktop/brakeCenter/app/views/contact/index.html.erb:4: syntax error, unexpected ',', expecting ')'
+...onials" :controller => 'site', :action => 'testimonials').to...
+                              ^) on line #4 of app/views/contact/index.html.erb:
+1: <h1>We want to know</h1>
+2: <strong>Tell Us. How Did We Do?</strong><br /><br />
+3: Was the level of service as promised?<br />
+4: Post your comments here about your experience with Brake Centers/Tire Pro. We routinely add these comments to our <%= link_to "Testimonials" :controller => 'site', :action => 'testimonials'%> section.<br /><br /><br />
+5: 
+6: <fieldset id="" class="">
+7: 	<legend>Send Feedback</legend>	
+
+    app/views/contact/index.html.erb:32:in `compile!'
+
+Rendered rescues/_trace (74.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 20:30:59) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 20:31:26) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 20:31:46) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 20:34:24) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 20:34:39) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 20:35:31) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 20:35:47) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 20:36:24) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 20:36:41) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 20:36:47) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 50ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 20:37:27) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 20:38:01) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:38:05) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:38:34) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 20:48:36) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-26 20:48:37) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:48:38) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:49:48) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:49:49) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:49:53) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:50:14) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 51ms (View: 50, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:51:00) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:51:27) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:51:42) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:51:54) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 50ms (View: 49, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:52:16) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:52:26) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 20:52:38) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:52:39) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:52:47) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:52:54) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 50ms (View: 49, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:56:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:58:00) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:58:19) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:58:38) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:59:09) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 20:59:23) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 20:59:37) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-26 21:00:15) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 21:00:16) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:00:20) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 21:12:05) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 21:13:49) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 54ms (View: 53, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 21:14:08) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 21:14:49) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 21:15:02) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 21:15:14) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 47ms (View: 45, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:15:15) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:15:45) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:15:57) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:18:15) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:18:39) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:18:47) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:18:55) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 21:23:29) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:23:33) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 21:23:36) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-26 21:23:40) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-26 21:23:54) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 55ms (View: 54, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-26 21:24:01) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 21:24:08) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 21:24:20) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:24:22) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 21:24:24) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 21:24:25) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:24:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 52ms (View: 51, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 21:24:29) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 21:24:34) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 21:24:49) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/about]
