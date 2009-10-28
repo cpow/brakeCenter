@@ -13373,3 +13373,21 @@ Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:53:20) [GET]
 Rendering template within layouts/application
 Rendering site/index
 Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:55:34) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:55:43) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:55:48) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
