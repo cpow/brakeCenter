@@ -12731,3 +12731,603 @@ Processing SiteController#about (for 127.0.0.1 at 2009-10-26 21:24:49) [GET]
 Rendering template within layouts/application
 Rendering site/about
 Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-26 21:32:31) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 21:32:35) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-26 21:32:40) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#testimonials (for 127.0.0.1 at 2009-10-26 21:32:44) [GET]
+Rendering template within layouts/application
+Rendering site/testimonials
+Completed in 54ms (View: 53, DB: 0) | 200 OK [http://0.0.0.0/site/testimonials]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-26 21:32:47) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-26 21:32:49) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing SiteController#careers (for 127.0.0.1 at 2009-10-26 21:32:51) [GET]
+Rendering template within layouts/application
+Rendering site/careers
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/site/careers]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-26 21:32:52) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:02:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:03:05) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:03:22) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:03:47) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:04:06) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 47ms (View: 45, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:28) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:28) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:29) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:29) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:29) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:42) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:06:54) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:07:58) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:07:58) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:07:58) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:07:59) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:08:06) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:08:06) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:08:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:08:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:08:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:08:41) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:08:46) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:08:46) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:08:46) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:08:46) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:10:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:10:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:10:25) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 46ms (View: 45, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:10:25) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:10:25) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:10:25) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:10:25) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:12:42) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 48ms (View: 46, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:13:03) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:25) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:28) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:39) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:39) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 46ms (View: 45, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:48) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:48) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:49) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:14:49) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:14:55) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 36ms (View: 34, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-27 20:14:56) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 32ms (View: 31, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:15:40) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 48ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:15:41) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:15:41) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:15:49) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:16:43) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:16:51) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 47ms (View: 46, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:17:01) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:17:01) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:17:01) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:17:02) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:17:02) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:17:02) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:17:02) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:17:14) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:17:40) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-27 20:18:03) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:18:13) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:18:25) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-27 20:18:27) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 74ms (View: 73, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-27 20:18:29) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 33ms (View: 32, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-27 20:18:33) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 33ms (View: 32, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-27 20:19:34) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-27 20:19:42) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 52ms (View: 50, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-27 20:19:49) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-27 20:20:04) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:25:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:26:17) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:26:18) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:26:18) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:29:19) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/site]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-27 20:29:23) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-27 20:29:25) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-27 20:29:28) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/site/about]
