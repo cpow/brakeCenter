@@ -13421,3 +13421,159 @@ Processing SiteController#index (for 127.0.0.1 at 2009-10-27 20:57:33) [GET]
 Rendering template within layouts/application
 Rendering site/index
 Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-28 16:46:45) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-28 16:46:53) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-28 16:48:35) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-28 16:49:01) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-28 16:49:16) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-28 16:49:26) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-28 16:49:37) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-28 16:49:42) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 68ms (View: 66, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#testimonials (for 127.0.0.1 at 2009-10-28 16:49:43) [GET]
+Rendering template within layouts/application
+Rendering site/testimonials
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://0.0.0.0/site/testimonials]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-28 16:49:44) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 54ms (View: 52, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-28 16:49:45) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-28 16:49:48) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-28 16:49:48) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 64ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-28 16:50:09) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-28 16:51:32) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-28 16:52:12) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-28 16:52:13) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-10-28 16:52:15) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-28 16:52:15) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/site/about]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-10-28 16:52:16) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/site/locations]
+
+
+Processing SiteController#promotions (for 127.0.0.1 at 2009-10-28 16:52:17) [GET]
+Rendering template within layouts/application
+Rendering site/promotions
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/site/promotions]
+
+
+Processing SiteController#testimonials (for 127.0.0.1 at 2009-10-28 16:52:17) [GET]
+Rendering template within layouts/application
+Rendering site/testimonials
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://0.0.0.0/site/testimonials]
+
+
+Processing ContactController#index (for 127.0.0.1 at 2009-10-28 16:52:19) [GET]
+Rendering template within layouts/application
+Rendering contact/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/contact]
+
+
+Processing ContactController#appoint (for 127.0.0.1 at 2009-10-28 16:52:21) [GET]
+Rendering template within layouts/application
+Rendering contact/appoint
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/contact/appoint]
+
+
+Processing SiteController#careers (for 127.0.0.1 at 2009-10-28 16:52:24) [GET]
+Rendering template within layouts/application
+Rendering site/careers
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://0.0.0.0/site/careers]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-10-28 16:52:25) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/site/about]
